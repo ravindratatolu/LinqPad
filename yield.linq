@@ -41,6 +41,7 @@ IEnumerable<int> ReturnNumbersGratterThanThreeWithOutTempCollection(IList<int> n
 }
 
 //stateful iteration example
+// the value of running total is retained.
 IEnumerable<int> CalculateRunningTotal(IList<int> numbers)
 {
 	int runningTotal = 0;
